@@ -1,0 +1,95 @@
+// sample_reddit.json
+
+{
+    "kind": "Listing",
+    "data": {
+        "modhash": "",
+        "children": [
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "en.wikipedia.org",
+                    "banned_by": null,
+                    "media_embed": {},
+                    "subreddit": "todayilearned",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "suggested_sort": null,
+                    "user_reports": [],
+                    "secure_media": null,
+                    "link_flair_text": null,
+                    "id": "5166eb",
+                    "from_kind": null,
+                    "gilded": 0,
+                    "archived": false,
+                    "clicked": false,
+                    "report_reasons": null,
+                    "author": "Harsh2301",
+                    "media": null,
+                    "score": 6365,
+                    "approved_by": null,
+                    "over_18": false,
+                    "hidden": false,
+                    "preview": {
+                        "images": [
+                            {
+                                "source": {
+                                    "url": "https://i.redditmedia.com/CQ7LCxPl-_H2PmGKzarvXj-mEca7eBCKhMpcM0FJFVc.jpg?s=d91521fdf95e927c323ab9357362ad14",
+                                    "width": 220,
+                                    "height": 346
+                                },
+                                "resolutions": [
+                                    {
+                                        "url": "https://i.redditmedia.com/CQ7LCxPl-_H2PmGKzarvXj-mEca7eBCKhMpcM0FJFVc.jpg?fit=crop&crop=faces%2Centropy&arh=2&w=108&s=29ee1dce71082d0d12fb1018b6775586",
+                                        "width": 108,
+                                        "height": 169
+                                    },
+                                    {
+                                        "url": "https://i.redditmedia.com/CQ7LCxPl-_H2PmGKzarvXj-mEca7eBCKhMpcM0FJFVc.jpg?fit=crop&crop=faces%2Centropy&arh=2&w=216&s=627c20a6b6f5bf8d749cf94906a5715b",
+                                        "width": 216,
+                                        "height": 339
+                                    }
+                                ],
+                                "variants": {},
+                                "id": "eLYlhmJ9tM-rNuCfWcgXWpiuDYqsytqI1wkfDkPg1es"
+                            }
+                        ]
+                    },
+                    "num_comments": 781,
+                    "thumbnail": "http://a.thumbs.redditmedia.com/61io7xq6JlQfT9Nhab81xdeYCy2xc5HxWVTLxsSyuc4.jpg",
+                    "subreddit_id": "t5_2qqjc",
+                    "hide_score": false,
+                    "edited": false,
+                    "link_flair_css_class": null,
+                    "author_flair_css_class": null,
+                    "downs": 0,
+                    "secure_media_embed": {},
+                    "saved": false,
+                    "removal_reason": null,
+                    "post_hint": "link",
+                    "stickied": false,
+                    "from": null,
+                    "is_self": false,
+                    "from_id": null,
+                    "permalink": "/r/todayilearned/comments/5166eb/til_the_allies_calculated_the_number_of_tanks/",
+                    "locked": false,
+                    "name": "t3_5166eb",
+                    "created": 1473054381,
+                    "url": "https://en.wikipedia.org/wiki/German_tank_problem?wprov=sfsi1",
+                    "author_flair_text": null,
+                    "quarantine": false,
+                    "title": "TIL the Allies calculated the number of tanks being manufactured by Germans during WW2 by using the serial number of captured/destroyed tanks and statistics. The statical and actual figure differed by a value of 1.",
+                    "created_utc": 1473025581,
+                    "distinguished": null,
+                    "mod_reports": [],
+                    "visited": false,
+                    "num_reports": null,
+                    "ups": 6365
+                }
+            }
+        ],
+        "after": "t3_5166eb",
+        "before": null
+    }
+}

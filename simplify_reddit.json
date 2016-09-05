@@ -1,0 +1,23 @@
+// sample_reddit.json
+
+{
+    "kind": "Listing",
+    "data": {
+        "modhash": "",
+        "children": [
+            {
+               
+                "data": {
+                    "author": "Harsh2301",
+                    "name": "t3_5166eb",
+                    "created": 1473054381,
+                    "url": "https://en.wikipedia.org/wiki/German_tank_problem?wprov=sfsi1",
+                    "title": "TIL the Allies calculated the number of tanks being manufactured by Germans during WW2 by using the serial number of captured/destroyed tanks and statistics. The statical and actual figure differed by a value of 1.",
+                    "created_utc": 1473025581,
+                }
+            }
+        ],
+        "after": "t3_5166eb",
+        "before": null
+    }
+}
