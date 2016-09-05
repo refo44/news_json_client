@@ -11,7 +11,7 @@ params = {limit: 1}  # incluimos mediante hash parametros en el query
 #uri.query = URI.encode_www_form(params)
 
 my_request = Net::HTTP::Get.new(uri)
-my_request["User-Agent"] = "Refo\'s News Reader" #Especificamos un "User-Agent"
+my_request["User-Agent"] = "refo_news_reader:v0.1.0 (by /u/<reddit refo44>)" #Especificamos un "User-Agent"
 
 resp = Net::HTTP.start(uri.hostname) {|http|        
 	http.request(my_request)
