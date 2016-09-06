@@ -10,34 +10,49 @@ class ApiClient
   	@news = {reddit:[],digg:[],mashable:[]}
 
     request_reddit
-    request_digg 
-    request_mashable
-
+    #request_digg 
+    #request_mashable
 	end
 
 	def request_reddit
 		@url = 'https://www.reddit.com/.json'
 
+		puts
+		print "requesting reddit... "
+
 		request_json
     @response_hash["data"]["children"].each { |element| @news[:reddit] << element}	
+
+    print "OK"
+    puts
 	end
 
 	def request_digg
 		@url = 'http://digg.com/api/news/popular.json'
 
+		puts
+		print "requesting digg... "
+
 		request_json
     @response_hash["data"]["feed"].each { |element| @news[:digg] << element}
+		print "OK"
+    puts
 	end
 
 	def request_mashable
 		#Mashable ofrece tres secciones separadas de noticias que en esta función se agrupan en una sola
 		@url = 'http://mashable.com/stories.json'
+    
+    puts
+		print "requesting mashable... "
 
 		request_json 
 
   	@response_hash["new"].each { |element| @news[:mashable] << element}
     @response_hash["rising"].each { |element| @news[:mashable] << element}
     @response_hash["hot"].each { |element| @news[:mashable] << element}
+		print "OK"
+    puts
 	end
 
 	private	
@@ -51,5 +66,3 @@ class ApiClient
 
 	end
 end
-
-ApiClient.new

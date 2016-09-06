@@ -5,7 +5,6 @@ class NewsElement
 	attr_accessor :title, :author, :date, :url 
 
 	def initialize (attributes={})
-
 		@title = attributes[:title]
 		@author = attributes[:author]
 		@date = attributes[:date]
