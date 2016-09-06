@@ -75,12 +75,12 @@ class Menu
      @lista[:digg].each{|element| @big_list << element}
      @lista[:mashable].each{|element| @big_list << element}
 
-     @big_lista.sort_by!{|element| element.date}
+     @big_list.sort_by!{|element| element.date}
 
-     @big_lista.each do |post|
+     @big_list.each do |post|
 
       puts 
-      puts "   from: all  "
+      puts "    all post ordered by time  "
       post.to_print
  
 		end
