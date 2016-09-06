@@ -12,6 +12,22 @@ class NewsElement
 	  var_check  
 	end
 
+	def to_print
+      
+      timeprint = Time.at(@date).strftime(" %d / %m / %Y ")
+
+		
+		puts "#{timeprint}"
+		puts
+		puts
+		puts " #{@title}"
+
+		puts "autor: #{@author}"
+		puts "url: #{@url}"
+    puts
+		puts " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+	end
+
 	private
 
 	def var_check

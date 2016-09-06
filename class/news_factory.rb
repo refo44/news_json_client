@@ -4,6 +4,8 @@ require_relative "news.rb"
 
 class NewsFactory
 
+	attr_reader :newslist
+
 	def initialize(requestlist)
 
    @requestlist = requestlist
@@ -11,8 +13,8 @@ class NewsFactory
    @newslist= {reddit:[],digg:[],mashable:[]}
 
    reddit_news
-   #digg_news
-   #mashable_news 
+   digg_news
+   mashable_news 
 
 	end
 
@@ -29,9 +31,6 @@ class NewsFactory
          element.date= time.to_i # Unix/POSIX time
         
          @newslist[:reddit] << element
-		     puts
-		     p @newslist[:reddit].last
-		     puts 
 		end
 	end
 
@@ -48,9 +47,6 @@ class NewsFactory
          element.date= time.to_i # Unix/POSIX time 
         
          @newslist[:digg] << element
-		     puts
-		     p @newslist[:digg].last
-		     puts 
 		end
 	end
 
@@ -68,9 +64,6 @@ class NewsFactory
        
         
          @newslist[:mashable] << element
-		     puts
-		     p @newslist[:mashable].last
-		     puts 
 		end
 	end
 

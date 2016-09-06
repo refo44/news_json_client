@@ -10,8 +10,8 @@ class ApiClient
   	@news = {reddit:[],digg:[],mashable:[]}
 
     request_reddit
-    #request_digg 
-    #request_mashable
+    request_digg 
+    request_mashable
 	end
 
 	def request_reddit
